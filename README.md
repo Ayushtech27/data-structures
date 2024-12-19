@@ -1,4 +1,4 @@
-#Big O Notation
+# Big O Notation
 
 - Big O notation is a powerful tool used in computer science to describe the time complexity or space complexity of algotithms.
 - It provides a standardized way to compare the efficiency of different algorithms in terms of their worst-case performance.
