@@ -17,7 +17,7 @@
   . Accessing elements in an array (by index) or object (by key) is constant.
   . In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
   . Logarithmic time complexity is great.
-  . Certain searching algorithms havd logarithmic time complexity.
+  . Certain searching algorithms have logarithmic time complexity.
   . Efficient searching algorithms involve logarithms.
   . Efficient sorting algorithms involve logarithms.
   . Recursion sometimes involve logarithms.
@@ -29,3 +29,39 @@
   . Most primitives (booleans, numbers, undefined, null) are constant space.
   . Strings require O(n) space (where n is the string length)
   . Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects).
+
+# When to use objects:
+
+- When you don't need order.
+- When you need fast access/insertion and removal
+  When we say quick:
+  . Insertion - O(1)
+  . Removal - O(1)
+  . Searching - O(N)
+  . Access - O(1)
+- Big O of Objects Methods:
+  . Object.keys - O(N)
+  . Object.values - O(N)
+  . Object.entries - O(N)
+  . hasOwnProperty - O(1)
+
+# When to use arrays:
+
+- When you need order.
+- When you need fast access / insertion and removal (sort of....)
+- Big O of Arrays:
+  . Insertion - It depends....
+  . Removal - It depends....
+  (push and pop is always faster than shift and unshift)
+  . Searching - O(N)
+  . Access - O(1)
+- Big O of Array Operations
+  . push - O(1)
+  . pop - O(1)
+  . shift - O(N)
+  . unshift - O(N)
+  . concat - O(N)
+  . slice - O(N)
+  . splice - O(N)
+  . sort - O(N log N)
+  . forEach/map/filter/reduce/etc. - O(N)
