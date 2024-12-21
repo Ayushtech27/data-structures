@@ -65,3 +65,47 @@
   . splice - O(N)
   . sort - O(N log N)
   . forEach/map/filter/reduce/etc. - O(N)
+
+# Problem Solving:
+
+- Understand the Problem
+- Explore Concrete Examples
+- Break it Down
+- Solve/Simplify
+- Look Back and Refactor
+
+# Understand the Problem
+
+1. Can I restate the problem in my own words.
+2. What are the inputes that go into the problem.
+3. What are the outputs that should come from the solutions to the problem.
+4. Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem? (You may not be able to answer this question until you set about solving the problem. That's okay; it's still worth considering the question at this early stage.)
+5. How should I label the important pieces fo data that are a part of the problem.
+
+# Explore Concrete Examples
+
+1. Start with Simple Examples
+2. Progress to More Complex Examples
+3. Explore Examples with Empty Inputs
+4. Explore Example with Invalid Inputs
+
+# Break it down
+
+Explecitly write out the steps you need to take: This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.
+
+# Solve/Simplify
+
+- Simplify:
+  - Find the core difficulty in what you're trying to do
+  - Temporarily ignore the difficulty.
+  - Write a simplified solution.
+  - Then incorporate that difficulty back in.
+
+# Look back and refactor
+
+- Refactoring Questions:
+- Can you check the result?
+- Can you derive the result differently?
+- Can you use teh result or method for some other problem?
+- Can you improve the performance of your solutions?
+- How have other people solved this problem.
