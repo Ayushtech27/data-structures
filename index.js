@@ -4,4 +4,7 @@ import {
 } from "./functions/problemSolvingApproach/charCount.js";
 
 console.log("Character count function: ", charCount("Hi there!"));
-console.log("Character count function: ", optimizedCharCount("Hello there!"));
+console.log(
+  "Optimized character count function: ",
+  optimizedCharCount("Hello there!")
+);
