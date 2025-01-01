@@ -3,6 +3,7 @@ import {
   optimizedCharCount,
 } from "./functions/problemSolvingApproach/charCount.js";
 import { same } from "./functions/problemSolvingPatterns/same.js";
+import { validAnagram } from "./functions/problemSolvingPatterns/validAnagram.js";
 
 const testCasesForSameFunction = [
   { arr1: [1, 2, 3], arr2: [1, 4, 9], expected: true }, // True case
@@ -25,3 +26,7 @@ testCasesForSameFunction.forEach(({ arr1, arr2, expected }, index) => {
     result === expected ? "Passed ✅" : "Failed ❌"
   );
 });
+
+console.log("validAnnagram function: ");
+console.log(validAnagram("cinema", "iceman")); // true (Valid anagram)
+console.log(validAnagram("hello", "billion"));
