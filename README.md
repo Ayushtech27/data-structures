@@ -22,7 +22,7 @@
   . Efficient sorting algorithms involve logarithms.
   . Recursion sometimes involve logarithms.
 
-- Sometimes you'll hear term audxiliary space complexity to refer to space required by the algorithm, not including space taken up by the inputs.
+- Sometimes you'll hear term auxiliary space complexity to refer to space required by the algorithm, not including space taken up by the inputs.
   Unless otherwise noted, when we talk about space complexity, technically we'll be talking about auxiliary space complexity.
 
 - Space Complexity in JS - Rules of thumb
@@ -109,3 +109,22 @@ Explecitly write out the steps you need to take: This forces you to think about 
 - Can you use teh result or method for some other problem?
 - Can you improve the performance of your solutions?
 - How have other people solved this problem.
+
+# Problem Solving Patterns
+
+Some Patterns:
+
+- Frequency Counter
+- Multiple Pointers
+- Sliding Window
+- Divide and Conquer
+- Dynamic Programming
+- Backtraking
+- Greedy Algorithms
+- Many more!
+
+# Frequency Counters
+
+- This pattern uses objects or sets to collect values/frequencies of values.
+- This can often avoid the need for nested loops or O(N^2) operations with arrays/strings.
+- Note: Two separate loops is vastly better than nested loops.
